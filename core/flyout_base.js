@@ -180,7 +180,7 @@ Blockly.Flyout.prototype.CORNER_RADIUS = 0;
  * @type {number}
  * @const
  */
-Blockly.Flyout.prototype.MARGIN = 12;
+Blockly.Flyout.prototype.MARGIN = 16;
 
 // TODO: Move GAP_X and GAP_Y to their appropriate files.
 
@@ -203,7 +203,7 @@ Blockly.Flyout.prototype.GAP_Y = Blockly.Flyout.prototype.MARGIN;
  * @type {number}
  * @const
  */
-Blockly.Flyout.prototype.SCROLLBAR_PADDING = 2;
+Blockly.Flyout.prototype.SCROLLBAR_PADDING = 16;
 
 /**
  * Width of flyout.

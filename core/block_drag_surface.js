@@ -294,6 +294,6 @@ Blockly.BlockDragSurfaceSvg.prototype.clearAndHide = function(opt_newSurface) {
   // of the blockly area.
   // Note that this behavior is different from blockly. See note in
   // setBlocksAndShow.
-  var injectionDiv = document.getElementsByClassName('injectionDiv')[0];
-  injectionDiv.style.overflow = 'hidden';
+  // var injectionDiv = document.getElementsByClassName('injectionDiv')[0];
+  // injectionDiv.style.overflow = 'hidden';
 };

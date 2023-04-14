@@ -727,6 +727,7 @@ Blockly.Css.CONTENT = [
   '.blocklyMainBackground {',
     'stroke-width: 1;',
     'stroke: #c6c6c6;',  /* Equates to #ddd due to border being off-pixel. */
+    'filter: drop-shadow(2px 5px 7px rgba(0, 0, 0, 0.1));',
   '}',
 
   '.blocklyMutatorBackground {',

@@ -89,7 +89,7 @@ Blockly.Colours = {
   "toolboxText": "#575E75",
   "toolbox": "#FFFFFF",
   "flyout": "#F9F9F9",
-  "scrollbar": "#CECDCE",
+  "scrollbar": "#7A00C4",
   "scrollbarHover": '#CECDCE',
   "textField": "#FFFFFF",
   "insertionMarker": "#000000",
