@@ -227,7 +227,7 @@ Blockly.Css.CONTENT = [
     'box-shadow: 4px 4px 20px 1px rgba(0,0,0,.15);',
     'color: #000;',
     'display: none;',
-    'font-family: "Helvetica Neue", Helvetica, sans-serif;',
+    'font-family: \'Poppins\';',
     'font-size: 9pt;',
     'opacity: 0.9;',
     'padding: 2px;',
@@ -312,7 +312,7 @@ Blockly.Css.CONTENT = [
     'border: 1px solid $colour_numPadBorder;',
     'cursor: pointer;',
     'font-weight: 600;',
-    'font-family: "Helvetica Neue", Helvetica, sans-serif;',
+    'font-family: \'Poppins\';',
     'font-size: 12pt;',
     '-webkit-tap-highlight-color: rgba(0,0,0,0);',
   '}',
@@ -349,7 +349,7 @@ Blockly.Css.CONTENT = [
     'overflow: auto;',
     'word-wrap: break-word;',
     'text-align: center;',
-    'font-family: "Helvetica Neue", Helvetica, sans-serif;',
+    'font-family: \'Poppins\';',
     'font-size: .8em;',
   '}',
 
@@ -460,7 +460,7 @@ Blockly.Css.CONTENT = [
 
   '.blocklyText {',
     'fill: #fff;',
-    'font-family: "Helvetica Neue", Helvetica, sans-serif;',
+    'font-family: \'Poppins\';',
     'font-size: 12pt;',
     'font-weight: 500;',
   '}',
@@ -528,7 +528,7 @@ Blockly.Css.CONTENT = [
   '}',
 
   '.blocklyFlyoutLabelText {',
-    'font-family: "Helvetica Neue", Helvetica, sans-serif;',
+  'font-family: \'Poppins\';',
     'font-size: 14pt;',
     'fill: #575E75;',
     'font-weight: bold;',
@@ -681,7 +681,7 @@ Blockly.Css.CONTENT = [
   '}',
 
   '.scratchCommentText {',
-    'font-family: "Helvetica Neue", Helvetica, sans-serif;',
+  'font-family: \'Poppins\';',
     'font-size: 12pt;',
     'font-weight: 400;',
   '}',
@@ -712,7 +712,7 @@ Blockly.Css.CONTENT = [
 
   '.blocklyHtmlInput {',
     'border: none;',
-    'font-family: "Helvetica Neue", Helvetica, sans-serif;',
+    'font-family: \'Poppins\';',
     'font-size: 12pt;',
     'height: 100%;',
     'margin: 0;',
@@ -854,7 +854,7 @@ Blockly.Css.CONTENT = [
     'overflow-x: visible;',
     'overflow-y: auto;',
     'position: absolute;',
-    'font-family: "Helvetica Neue", Helvetica, sans-serif;',
+    'font-family: \'Poppins\';',
     'z-index: 40;', /* so blocks go over toolbox when dragging */
     '-webkit-tap-highlight-color: transparent;', /* issue #1345 */
   '}',
@@ -944,7 +944,7 @@ Blockly.Css.CONTENT = [
 
   '.blocklyTreeLabel {',
     'cursor: default;',
-    'font-family: "Helvetica Neue", Helvetica, sans-serif;',
+    'font-family: \'Poppins\';',
     'font-size: 16px;',
     'padding: 0 3px;',
     'vertical-align: middle;',
@@ -992,7 +992,7 @@ Blockly.Css.CONTENT = [
   '}',
 
   '.scratchColourPickerLabel {',
-    'font-family: "Helvetica Neue", Helvetica, sans-serif;',
+    'font-family: \'Poppins\';',
     'font-size: 0.65rem;',
     'color: $colour_toolboxText;',
     'margin: 8px;',
@@ -1013,7 +1013,7 @@ Blockly.Css.CONTENT = [
   '}',
 
   '.scratchNotePickerKeyLabel {',
-    'font-family: "Helvetica Neue", Helvetica, sans-serif;',
+    'font-family: \'Poppins\';',
     'font-size: 0.75rem;',
     'fill: $colour_text;',
     'pointer-events: none;',
@@ -1039,7 +1039,7 @@ Blockly.Css.CONTENT = [
     'border-style: solid;',
     'border-width: 1px;',
     'cursor: default;',
-    'font: normal 13px "Helvetica Neue", Helvetica, sans-serif;',
+    'font: normal 13px \'Poppins\';',
     'margin: 0;',
     'outline: none;',
     'padding: 4px 0;',
@@ -1051,7 +1051,7 @@ Blockly.Css.CONTENT = [
 
   '.blocklyDropDownDiv .goog-menu {',
     'cursor: default;',
-    'font: normal 13px "Helvetica Neue", Helvetica, sans-serif;',
+    'font: normal 13px \'Poppins\';',
     'outline: none;',
     'z-index: 20000;',  /* Arbitrary, but some apps depend on it... */
   '}',
@@ -1087,7 +1087,7 @@ Blockly.Css.CONTENT = [
    */
   '.blocklyWidgetDiv .goog-menuitem {',
     'color: #000;',
-    'font: normal 13px "Helvetica Neue", Helvetica, sans-serif;',
+    'font: normal 13px \'Poppins\';',
     'list-style: none;',
     'margin: 0;',
      /* 28px on the left for icon or checkbox; 7em on the right for shortcut. */
@@ -1097,7 +1097,7 @@ Blockly.Css.CONTENT = [
 
   '.blocklyDropDownDiv .goog-menuitem {',
     'color: #fff;',
-    'font: normal 13px "Helvetica Neue", Helvetica, sans-serif;',
+    'font: normal 13px \'Poppins\';',
     'font-weight: bold;',
     'list-style: none;',
     'margin: 0;',
@@ -1136,7 +1136,7 @@ Blockly.Css.CONTENT = [
   '.blocklyWidgetDiv .goog-menuitem-content ',
   '.blocklyDropDownDiv .goog-menuitem-content {',
     'color: #000;',
-    'font: normal 13px "Helvetica Neue", Helvetica, sans-serif;',
+    'font: normal 13px \'Poppins\';',
   '}',
 
   /* State: disabled. */
