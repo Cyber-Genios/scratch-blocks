@@ -130,7 +130,7 @@ Blockly.Css.CONTENT = [
   '.blocklySvg {',
     'background-color: $colour_workspace;',
     'outline: none;',
-    'overflow: hidden;',  /* IE overflows by default. */
+    'overflow: visible;',  /* IE overflows by default. */
     'position: absolute;',
     'display: block;',
   '}',
@@ -151,8 +151,9 @@ Blockly.Css.CONTENT = [
   '.injectionDiv {',
     'height: 100%;',
     'position: relative;',
-    'overflow: hidden;', /* So blocks in drag surface disappear at edges */
+    'overflow: visible;', /* So blocks in drag surface disappear at edges */
     'touch-action: none',
+    'padding: 10px',
   '}',
 
   '.blocklyNonSelectable {',
