@@ -248,7 +248,8 @@ Blockly.VerticalFlyout.prototype.getMetrics_ = function() {
   var absoluteTop = this.SCROLLBAR_PADDING;
   var absoluteLeft = 0;
 
-  var viewHeight = this.height_ - 2 * this.SCROLLBAR_PADDING;
+  // var viewHeight = this.height_ - 2 * this.SCROLLBAR_PADDING;
+  var viewHeight = this.height_ - 4;
   var viewWidth = this.getWidth() - this.SCROLLBAR_PADDING;
 
   // Add padding to the bottom of the flyout, so we can scroll to the top of
@@ -350,7 +351,7 @@ Blockly.VerticalFlyout.prototype.position = function() {
   // Update the scrollbar (if one exists).
   if (this.scrollbar_) {
     // Set the scrollbars origin to be the top left of the flyout.
-    this.scrollbar_.setOrigin(x, y);
+    this.scrollbar_.setOrigin(x, -14); // MARGIN - 4 / 2 from contentHeight
     this.scrollbar_.resize();
   }
   // The blocks need to be visible in order to be laid out and measured
